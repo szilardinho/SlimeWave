@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		111631221BF2BF5D001DE52C /* GameOverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 111631211BF2BF5D001DE52C /* GameOverScene.m */; };
+		111631241BF2CD76001DE52C /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 111631231BF2CD76001DE52C /* Social.framework */; };
+		116935E41C209A6100AA4AAB /* titleSceneMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 116935E31C209A6100AA4AAB /* titleSceneMusic.mp3 */; };
+		116935E61C209B8E00AA4AAB /* gamePlayMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 116935E51C209B8E00AA4AAB /* gamePlayMusic.mp3 */; };
+		116935E81C209BAD00AA4AAB /* gameOverMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 116935E71C209BAD00AA4AAB /* gameOverMusic.mp3 */; };
+		1185EFE61BE173ED00FE2443 /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 1185EFE51BE173ED00FE2443 /* Sprites.atlas */; };
+		1185EFE91BE17D8E00FE2443 /* PipeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 1185EFE81BE17D8E00FE2443 /* PipeNode.m */; };
+		1185EFEC1BE18EE700FE2443 /* WaterfallNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 1185EFEB1BE18EE700FE2443 /* WaterfallNode.m */; };
+		1185EFEF1BE1A00800FE2443 /* SplashNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 1185EFEE1BE1A00800FE2443 /* SplashNode.m */; };
+		1185EFF21BE2D5F000FE2443 /* LaserBlastNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 1185EFF11BE2D5F000FE2443 /* LaserBlastNode.m */; };
+		1185EFF81BE579A700FE2443 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 1185EFF71BE579A700FE2443 /* Utility.m */; };
+		1185EFFB1BE80F3C00FE2443 /* GroundNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 1185EFFA1BE80F3C00FE2443 /* GroundNode.m */; };
+		1185EFFE1BE821BC00FE2443 /* HUDNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 1185EFFD1BE821BC00FE2443 /* HUDNode.m */; };
+		1185F0011BE8336E00FE2443 /* SlimeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 1185F0001BE8336E00FE2443 /* SlimeNode.m */; };
+		1185F0071BE8395F00FE2443 /* MyParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1185F0051BE8395F00FE2443 /* MyParticle.sks */; };
+		1185F0081BE8395F00FE2443 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 1185F0061BE8395F00FE2443 /* spark.png */; };
+		1195F1341BDECDC000F98ACF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1195F1331BDECDC000F98ACF /* main.m */; };
+		1195F1371BDECDC000F98ACF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1195F1361BDECDC000F98ACF /* AppDelegate.m */; };
+		1195F13F1BDECDC000F98ACF /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1195F13E1BDECDC000F98ACF /* GameViewController.m */; };
+		1195F1421BDECDC000F98ACF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1195F1401BDECDC000F98ACF /* Main.storyboard */; };
+		1195F1441BDECDC000F98ACF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1195F1431BDECDC000F98ACF /* Images.xcassets */; };
+		1195F1471BDECDC000F98ACF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1195F1451BDECDC000F98ACF /* LaunchScreen.xib */; };
+		1195F1531BDECDC000F98ACF /* SlimeWaveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1195F1521BDECDC000F98ACF /* SlimeWaveTests.m */; };
+		1195F15E1BDED7EC00F98ACF /* TitleScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 1195F15D1BDED7EC00F98ACF /* TitleScene.m */; };
+		1195F1611BDEE97400F98ACF /* GamePlayScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 1195F1601BDEE97400F98ACF /* GamePlayScene.m */; };
+		1195F1651BDFE24B00F98ACF /* MadScientistNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 1195F1641BDFE24B00F98ACF /* MadScientistNode.m */; };
+		1195F16A1BDFEF4700F98ACF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1195F1681BDFEF4700F98ACF /* AVFoundation.framework */; };
+		1195F16B1BDFEF4700F98ACF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1195F1691BDFEF4700F98ACF /* Foundation.framework */; };
+		1195F16D1BDFEF5700F98ACF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1195F16C1BDFEF5700F98ACF /* UIKit.framework */; };
+		1195F16F1BDFEF5E00F98ACF /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1195F16E1BDFEF5E00F98ACF /* SpriteKit.framework */; };
+		1195F1711BDFEF6D00F98ACF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1195F1701BDFEF6D00F98ACF /* CoreGraphics.framework */; };
+		1195F1751BE0003D00F98ACF /* SewerRiverNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 1195F1741BE0003D00F98ACF /* SewerRiverNode.m */; };
+		11AC3C0B1C2349820099AB1D /* GameData.m in Sources */ = {isa = PBXBuildFile; fileRef = 11AC3C0A1C2349820099AB1D /* GameData.m */; };
+		11DA13931BE9803D00A99FDD /* Damage.caf in Resources */ = {isa = PBXBuildFile; fileRef = 11DA138C1BE9803D00A99FDD /* Damage.caf */; };
+		11DA13941BE9803D00A99FDD /* Explode.caf in Resources */ = {isa = PBXBuildFile; fileRef = 11DA138D1BE9803D00A99FDD /* Explode.caf */; };
+		11DA13951BE9803D00A99FDD /* GameOver.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 11DA138E1BE9803D00A99FDD /* GameOver.mp3 */; };
+		11DA13961BE9803D00A99FDD /* Gameplay.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 11DA138F1BE9803D00A99FDD /* Gameplay.mp3 */; };
+		11DA13971BE9803D00A99FDD /* Laser.caf in Resources */ = {isa = PBXBuildFile; fileRef = 11DA13901BE9803D00A99FDD /* Laser.caf */; };
+		11DA13981BE9803D00A99FDD /* PressStart.caf in Resources */ = {isa = PBXBuildFile; fileRef = 11DA13911BE9803D00A99FDD /* PressStart.caf */; };
+		11DA13991BE9803D00A99FDD /* StartScreen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 11DA13921BE9803D00A99FDD /* StartScreen.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1195F14D1BDECDC000F98ACF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1195F1261BDECDC000F98ACF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1195F12D1BDECDC000F98ACF;
+			remoteInfo = SlimeWave;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		111631201BF2BF5D001DE52C /* GameOverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOverScene.h; sourceTree = "<group>"; };
+		111631211BF2BF5D001DE52C /* GameOverScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOverScene.m; sourceTree = "<group>"; };
+		111631231BF2CD76001DE52C /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		116935E31C209A6100AA4AAB /* titleSceneMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = titleSceneMusic.mp3; sourceTree = "<group>"; };
+		116935E51C209B8E00AA4AAB /* gamePlayMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gamePlayMusic.mp3; sourceTree = "<group>"; };
+		116935E71C209BAD00AA4AAB /* gameOverMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gameOverMusic.mp3; sourceTree = "<group>"; };
+		1185EFE51BE173ED00FE2443 /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
+		1185EFE71BE17D8E00FE2443 /* PipeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PipeNode.h; sourceTree = "<group>"; };
+		1185EFE81BE17D8E00FE2443 /* PipeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PipeNode.m; sourceTree = "<group>"; };
+		1185EFEA1BE18EE700FE2443 /* WaterfallNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterfallNode.h; sourceTree = "<group>"; };
+		1185EFEB1BE18EE700FE2443 /* WaterfallNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterfallNode.m; sourceTree = "<group>"; };
+		1185EFED1BE1A00800FE2443 /* SplashNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashNode.h; sourceTree = "<group>"; };
+		1185EFEE1BE1A00800FE2443 /* SplashNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashNode.m; sourceTree = "<group>"; };
+		1185EFF01BE2D5F000FE2443 /* LaserBlastNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaserBlastNode.h; sourceTree = "<group>"; };
+		1185EFF11BE2D5F000FE2443 /* LaserBlastNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaserBlastNode.m; sourceTree = "<group>"; };
+		1185EFF61BE579A700FE2443 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		1185EFF71BE579A700FE2443 /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		1185EFF91BE80F3C00FE2443 /* GroundNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroundNode.h; sourceTree = "<group>"; };
+		1185EFFA1BE80F3C00FE2443 /* GroundNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroundNode.m; sourceTree = "<group>"; };
+		1185EFFC1BE821BC00FE2443 /* HUDNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUDNode.h; sourceTree = "<group>"; };
+		1185EFFD1BE821BC00FE2443 /* HUDNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUDNode.m; sourceTree = "<group>"; };
+		1185EFFF1BE8336E00FE2443 /* SlimeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlimeNode.h; sourceTree = "<group>"; };
+		1185F0001BE8336E00FE2443 /* SlimeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlimeNode.m; sourceTree = "<group>"; };
+		1185F0051BE8395F00FE2443 /* MyParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyParticle.sks; sourceTree = "<group>"; };
+		1185F0061BE8395F00FE2443 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		1195F12E1BDECDC000F98ACF /* SlimeWave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlimeWave.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1195F1321BDECDC000F98ACF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1195F1331BDECDC000F98ACF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1195F1351BDECDC000F98ACF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1195F1361BDECDC000F98ACF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1195F13D1BDECDC000F98ACF /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		1195F13E1BDECDC000F98ACF /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		1195F1411BDECDC000F98ACF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1195F1431BDECDC000F98ACF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1195F1461BDECDC000F98ACF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1195F14C1BDECDC000F98ACF /* SlimeWaveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlimeWaveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1195F1511BDECDC000F98ACF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1195F1521BDECDC000F98ACF /* SlimeWaveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlimeWaveTests.m; sourceTree = "<group>"; };
+		1195F15C1BDED7EC00F98ACF /* TitleScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleScene.h; sourceTree = "<group>"; };
+		1195F15D1BDED7EC00F98ACF /* TitleScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleScene.m; sourceTree = "<group>"; };
+		1195F15F1BDEE97400F98ACF /* GamePlayScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamePlayScene.h; sourceTree = "<group>"; };
+		1195F1601BDEE97400F98ACF /* GamePlayScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamePlayScene.m; sourceTree = "<group>"; };
+		1195F1631BDFE24B00F98ACF /* MadScientistNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MadScientistNode.h; sourceTree = "<group>"; };
+		1195F1641BDFE24B00F98ACF /* MadScientistNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MadScientistNode.m; sourceTree = "<group>"; };
+		1195F1681BDFEF4700F98ACF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1195F1691BDFEF4700F98ACF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1195F16C1BDFEF5700F98ACF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1195F16E1BDFEF5E00F98ACF /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		1195F1701BDFEF6D00F98ACF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1195F1731BE0003D00F98ACF /* SewerRiverNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SewerRiverNode.h; sourceTree = "<group>"; };
+		1195F1741BE0003D00F98ACF /* SewerRiverNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SewerRiverNode.m; sourceTree = "<group>"; };
+		11AC3C091C2349820099AB1D /* GameData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameData.h; sourceTree = "<group>"; };
+		11AC3C0A1C2349820099AB1D /* GameData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameData.m; sourceTree = "<group>"; };
+		11DA138C1BE9803D00A99FDD /* Damage.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Damage.caf; sourceTree = "<group>"; };
+		11DA138D1BE9803D00A99FDD /* Explode.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Explode.caf; sourceTree = "<group>"; };
+		11DA138E1BE9803D00A99FDD /* GameOver.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = GameOver.mp3; sourceTree = "<group>"; };
+		11DA138F1BE9803D00A99FDD /* Gameplay.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Gameplay.mp3; sourceTree = "<group>"; };
+		11DA13901BE9803D00A99FDD /* Laser.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Laser.caf; sourceTree = "<group>"; };
+		11DA13911BE9803D00A99FDD /* PressStart.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PressStart.caf; sourceTree = "<group>"; };
+		11DA13921BE9803D00A99FDD /* StartScreen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = StartScreen.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1195F12B1BDECDC000F98ACF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				111631241BF2CD76001DE52C /* Social.framework in Frameworks */,
+				1195F1711BDFEF6D00F98ACF /* CoreGraphics.framework in Frameworks */,
+				1195F16F1BDFEF5E00F98ACF /* SpriteKit.framework in Frameworks */,
+				1195F16D1BDFEF5700F98ACF /* UIKit.framework in Frameworks */,
+				1195F16A1BDFEF4700F98ACF /* AVFoundation.framework in Frameworks */,
+				1195F16B1BDFEF4700F98ACF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1195F1491BDECDC000F98ACF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1185EFE41BE1699500FE2443 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				1195F15C1BDED7EC00F98ACF /* TitleScene.h */,
+				1195F15D1BDED7EC00F98ACF /* TitleScene.m */,
+				1195F15F1BDEE97400F98ACF /* GamePlayScene.h */,
+				1195F1601BDEE97400F98ACF /* GamePlayScene.m */,
+				111631201BF2BF5D001DE52C /* GameOverScene.h */,
+				111631211BF2BF5D001DE52C /* GameOverScene.m */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		1195F1251BDECDC000F98ACF = {
+			isa = PBXGroup;
+			children = (
+				1195F1301BDECDC000F98ACF /* SlimeWave */,
+				1195F14F1BDECDC000F98ACF /* SlimeWaveTests */,
+				1195F12F1BDECDC000F98ACF /* Products */,
+				1195F1721BDFEF7600F98ACF /* Framework */,
+			);
+			sourceTree = "<group>";
+		};
+		1195F12F1BDECDC000F98ACF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1195F12E1BDECDC000F98ACF /* SlimeWave.app */,
+				1195F14C1BDECDC000F98ACF /* SlimeWaveTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1195F1301BDECDC000F98ACF /* SlimeWave */ = {
+			isa = PBXGroup;
+			children = (
+				1195F1351BDECDC000F98ACF /* AppDelegate.h */,
+				1195F1361BDECDC000F98ACF /* AppDelegate.m */,
+				1195F13D1BDECDC000F98ACF /* GameViewController.h */,
+				1195F13E1BDECDC000F98ACF /* GameViewController.m */,
+				11AC3C091C2349820099AB1D /* GameData.h */,
+				11AC3C0A1C2349820099AB1D /* GameData.m */,
+				1185EFF61BE579A700FE2443 /* Utility.h */,
+				1185EFF71BE579A700FE2443 /* Utility.m */,
+				1185EFE41BE1699500FE2443 /* Scenes */,
+				1195F1621BDFE22E00F98ACF /* Nodes */,
+				1195F1401BDECDC000F98ACF /* Main.storyboard */,
+				1195F1431BDECDC000F98ACF /* Images.xcassets */,
+				11DA139A1BE9804200A99FDD /* SFX */,
+				1185EFE51BE173ED00FE2443 /* Sprites.atlas */,
+				1195F1451BDECDC000F98ACF /* LaunchScreen.xib */,
+				1195F1311BDECDC000F98ACF /* Supporting Files */,
+			);
+			path = SlimeWave;
+			sourceTree = "<group>";
+		};
+		1195F1311BDECDC000F98ACF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1195F1321BDECDC000F98ACF /* Info.plist */,
+				1195F1331BDECDC000F98ACF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1195F14F1BDECDC000F98ACF /* SlimeWaveTests */ = {
+			isa = PBXGroup;
+			children = (
+				1195F1521BDECDC000F98ACF /* SlimeWaveTests.m */,
+				1195F1501BDECDC000F98ACF /* Supporting Files */,
+			);
+			path = SlimeWaveTests;
+			sourceTree = "<group>";
+		};
+		1195F1501BDECDC000F98ACF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1195F1511BDECDC000F98ACF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1195F1621BDFE22E00F98ACF /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				1185EFF91BE80F3C00FE2443 /* GroundNode.h */,
+				1185EFFA1BE80F3C00FE2443 /* GroundNode.m */,
+				1195F1631BDFE24B00F98ACF /* MadScientistNode.h */,
+				1195F1641BDFE24B00F98ACF /* MadScientistNode.m */,
+				1185EFFF1BE8336E00FE2443 /* SlimeNode.h */,
+				1185F0001BE8336E00FE2443 /* SlimeNode.m */,
+				1185EFFC1BE821BC00FE2443 /* HUDNode.h */,
+				1185EFFD1BE821BC00FE2443 /* HUDNode.m */,
+				1185F0051BE8395F00FE2443 /* MyParticle.sks */,
+				1185F0061BE8395F00FE2443 /* spark.png */,
+				1185EFED1BE1A00800FE2443 /* SplashNode.h */,
+				1185EFEE1BE1A00800FE2443 /* SplashNode.m */,
+				1185EFF01BE2D5F000FE2443 /* LaserBlastNode.h */,
+				1185EFF11BE2D5F000FE2443 /* LaserBlastNode.m */,
+				1195F1731BE0003D00F98ACF /* SewerRiverNode.h */,
+				1195F1741BE0003D00F98ACF /* SewerRiverNode.m */,
+				1185EFE71BE17D8E00FE2443 /* PipeNode.h */,
+				1185EFE81BE17D8E00FE2443 /* PipeNode.m */,
+				1185EFEA1BE18EE700FE2443 /* WaterfallNode.h */,
+				1185EFEB1BE18EE700FE2443 /* WaterfallNode.m */,
+			);
+			name = Nodes;
+			sourceTree = "<group>";
+		};
+		1195F1721BDFEF7600F98ACF /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				111631231BF2CD76001DE52C /* Social.framework */,
+				1195F1701BDFEF6D00F98ACF /* CoreGraphics.framework */,
+				1195F16E1BDFEF5E00F98ACF /* SpriteKit.framework */,
+				1195F16C1BDFEF5700F98ACF /* UIKit.framework */,
+				1195F1681BDFEF4700F98ACF /* AVFoundation.framework */,
+				1195F1691BDFEF4700F98ACF /* Foundation.framework */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		11DA139A1BE9804200A99FDD /* SFX */ = {
+			isa = PBXGroup;
+			children = (
+				11DA138C1BE9803D00A99FDD /* Damage.caf */,
+				11DA138D1BE9803D00A99FDD /* Explode.caf */,
+				11DA138E1BE9803D00A99FDD /* GameOver.mp3 */,
+				11DA138F1BE9803D00A99FDD /* Gameplay.mp3 */,
+				11DA13901BE9803D00A99FDD /* Laser.caf */,
+				11DA13911BE9803D00A99FDD /* PressStart.caf */,
+				11DA13921BE9803D00A99FDD /* StartScreen.mp3 */,
+				116935E31C209A6100AA4AAB /* titleSceneMusic.mp3 */,
+				116935E51C209B8E00AA4AAB /* gamePlayMusic.mp3 */,
+				116935E71C209BAD00AA4AAB /* gameOverMusic.mp3 */,
+			);
+			name = SFX;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1195F12D1BDECDC000F98ACF /* SlimeWave */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1195F1561BDECDC000F98ACF /* Build configuration list for PBXNativeTarget "SlimeWave" */;
+			buildPhases = (
+				1195F12A1BDECDC000F98ACF /* Sources */,
+				1195F12B1BDECDC000F98ACF /* Frameworks */,
+				1195F12C1BDECDC000F98ACF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlimeWave;
+			productName = SlimeWave;
+			productReference = 1195F12E1BDECDC000F98ACF /* SlimeWave.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1195F14B1BDECDC000F98ACF /* SlimeWaveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1195F1591BDECDC000F98ACF /* Build configuration list for PBXNativeTarget "SlimeWaveTests" */;
+			buildPhases = (
+				1195F1481BDECDC000F98ACF /* Sources */,
+				1195F1491BDECDC000F98ACF /* Frameworks */,
+				1195F14A1BDECDC000F98ACF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1195F14E1BDECDC000F98ACF /* PBXTargetDependency */,
+			);
+			name = SlimeWaveTests;
+			productName = SlimeWaveTests;
+			productReference = 1195F14C1BDECDC000F98ACF /* SlimeWaveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1195F1261BDECDC000F98ACF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Szi Gabor";
+				TargetAttributes = {
+					1195F12D1BDECDC000F98ACF = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = DASLK2R355;
+					};
+					1195F14B1BDECDC000F98ACF = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 1195F12D1BDECDC000F98ACF;
+					};
+				};
+			};
+			buildConfigurationList = 1195F1291BDECDC000F98ACF /* Build configuration list for PBXProject "SlimeWave" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1195F1251BDECDC000F98ACF;
+			productRefGroup = 1195F12F1BDECDC000F98ACF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1195F12D1BDECDC000F98ACF /* SlimeWave */,
+				1195F14B1BDECDC000F98ACF /* SlimeWaveTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1195F12C1BDECDC000F98ACF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11DA13961BE9803D00A99FDD /* Gameplay.mp3 in Resources */,
+				11DA13981BE9803D00A99FDD /* PressStart.caf in Resources */,
+				116935E81C209BAD00AA4AAB /* gameOverMusic.mp3 in Resources */,
+				11DA13991BE9803D00A99FDD /* StartScreen.mp3 in Resources */,
+				1195F1471BDECDC000F98ACF /* LaunchScreen.xib in Resources */,
+				1185F0081BE8395F00FE2443 /* spark.png in Resources */,
+				1195F1441BDECDC000F98ACF /* Images.xcassets in Resources */,
+				1185EFE61BE173ED00FE2443 /* Sprites.atlas in Resources */,
+				116935E41C209A6100AA4AAB /* titleSceneMusic.mp3 in Resources */,
+				11DA13951BE9803D00A99FDD /* GameOver.mp3 in Resources */,
+				11DA13941BE9803D00A99FDD /* Explode.caf in Resources */,
+				1195F1421BDECDC000F98ACF /* Main.storyboard in Resources */,
+				1185F0071BE8395F00FE2443 /* MyParticle.sks in Resources */,
+				116935E61C209B8E00AA4AAB /* gamePlayMusic.mp3 in Resources */,
+				11DA13931BE9803D00A99FDD /* Damage.caf in Resources */,
+				11DA13971BE9803D00A99FDD /* Laser.caf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1195F14A1BDECDC000F98ACF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1195F12A1BDECDC000F98ACF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1185EFEF1BE1A00800FE2443 /* SplashNode.m in Sources */,
+				1185EFEC1BE18EE700FE2443 /* WaterfallNode.m in Sources */,
+				1195F15E1BDED7EC00F98ACF /* TitleScene.m in Sources */,
+				1185EFE91BE17D8E00FE2443 /* PipeNode.m in Sources */,
+				1185EFF81BE579A700FE2443 /* Utility.m in Sources */,
+				111631221BF2BF5D001DE52C /* GameOverScene.m in Sources */,
+				1185F0011BE8336E00FE2443 /* SlimeNode.m in Sources */,
+				1185EFFE1BE821BC00FE2443 /* HUDNode.m in Sources */,
+				11AC3C0B1C2349820099AB1D /* GameData.m in Sources */,
+				1195F13F1BDECDC000F98ACF /* GameViewController.m in Sources */,
+				1195F1611BDEE97400F98ACF /* GamePlayScene.m in Sources */,
+				1195F1651BDFE24B00F98ACF /* MadScientistNode.m in Sources */,
+				1185EFF21BE2D5F000FE2443 /* LaserBlastNode.m in Sources */,
+				1195F1751BE0003D00F98ACF /* SewerRiverNode.m in Sources */,
+				1185EFFB1BE80F3C00FE2443 /* GroundNode.m in Sources */,
+				1195F1371BDECDC000F98ACF /* AppDelegate.m in Sources */,
+				1195F1341BDECDC000F98ACF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1195F1481BDECDC000F98ACF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1195F1531BDECDC000F98ACF /* SlimeWaveTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1195F14E1BDECDC000F98ACF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1195F12D1BDECDC000F98ACF /* SlimeWave */;
+			targetProxy = 1195F14D1BDECDC000F98ACF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1195F1401BDECDC000F98ACF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1195F1411BDECDC000F98ACF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1195F1451BDECDC000F98ACF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1195F1461BDECDC000F98ACF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1195F1541BDECDC000F98ACF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1195F1551BDECDC000F98ACF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1195F1571BDECDC000F98ACF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = SlimeWave/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Szi.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		1195F1581BDECDC000F98ACF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = SlimeWave/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Szi.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		1195F15A1BDECDC000F98ACF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SlimeWaveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Szi.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlimeWave.app/SlimeWave";
+			};
+			name = Debug;
+		};
+		1195F15B1BDECDC000F98ACF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = "";
+				INFOPLIST_FILE = SlimeWaveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Szi.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlimeWave.app/SlimeWave";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1195F1291BDECDC000F98ACF /* Build configuration list for PBXProject "SlimeWave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1195F1541BDECDC000F98ACF /* Debug */,
+				1195F1551BDECDC000F98ACF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1195F1561BDECDC000F98ACF /* Build configuration list for PBXNativeTarget "SlimeWave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1195F1571BDECDC000F98ACF /* Debug */,
+				1195F1581BDECDC000F98ACF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1195F1591BDECDC000F98ACF /* Build configuration list for PBXNativeTarget "SlimeWaveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1195F15A1BDECDC000F98ACF /* Debug */,
+				1195F15B1BDECDC000F98ACF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1195F1261BDECDC000F98ACF /* Project object */;
+}
